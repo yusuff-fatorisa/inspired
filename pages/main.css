@@ -1,0 +1,543 @@
+/*Pre-requisites*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 40px;
+}
+
+/*Top Styling*/
+
+.container .top {
+	flex-basis: 10%;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .top > img {
+	width: 300px;
+}
+
+/*Main Styling*/
+
+.container .main {
+	flex-basis: 60%;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 120px;
+	background-color: #f2f7f6;
+}
+
+/*Hero Styling*/
+
+.container .main .hero {
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+
+.main .hero > img {
+	width: 100%;
+}
+
+.main .hero > h1 {
+	position: absolute;
+	top: 100px;
+	right: 75px;
+	font-size: 32px;
+	font-weight: 100;
+	text-align: end;
+	color: #fff;
+}
+
+/*Our Services Styling*/
+
+.container .main .our-services {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 403px;
+}
+
+.main .our-services .services-list {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.our-services .services-list > ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.our-services .services-list > ul > li {
+	padding: 20px 80px 20px 0;
+	font-size: 35px;
+}
+
+.our-services .services-list > ul > li:nth-of-type(2) {
+	border-top: 1px solid #953553;
+	border-bottom: 1px solid #953553;
+}
+
+.our-services .services-list > ul > li:nth-of-type(1) {
+	border-top: 1px solid #953553;
+}
+
+.our-services .services-list > ul > li:nth-of-type(3) {
+	border-bottom: 1px solid #953553;
+}
+
+.main .our-services .service-title {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.our-services .service-title > h3 {
+	color: darkgoldenrod;
+	font-size: 10px;
+	font-weight: lighter;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+}
+
+.our-services .service-title > img {
+	position: absolute;
+	width: 275px;
+	top: 35px;
+    right: 265px;
+}
+
+/*Inspired Dreams Styling*/
+
+.container .main .inspired-dreams {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+
+.main .inspired-dreams .stamp-image {
+	display: flex;
+	padding-left: 50px;
+}
+
+.main .inspired-dreams .texts {
+	display: flex;
+}
+
+.main .inspired-dreams .support {
+	flex-basis: 50%;
+}
+
+.inspired-dreams .texts .text-content {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.texts .text-content > h2 {
+	text-transform: capitalize;
+	font-weight: 100;
+	font-size: 40px;
+	line-height: 1.25;
+	letter-spacing: 1.25px;
+}
+
+.texts .text-content > h2 > span {
+	text-transform: none;
+}
+
+/*Discover Styling Across the entire Home Page*/
+
+.discover {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	text-decoration: none;
+}
+
+.discover > h6 {
+	color: darkgoldenrod;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.discover > hr {
+	width: 20px;
+	color: darkgoldenrod;
+}
+
+.main .inspired-dreams .inspired-magazine {
+	display: flex;
+}
+
+.inspired-dreams .inspired-magazine .images {
+	flex-basis: 60%;
+}
+
+.inspired-magazine .images > img {
+	width: 100%;
+}
+
+.inspired-dreams .inspired-magazine .support {
+	flex-basis: 40%;
+}
+
+/*Odessa Styling*/
+
+.container .main .odessa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.main .odessa .texts {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 25px;
+	padding-left: 125px;
+}
+
+.odessa .texts > h2 {
+	font-weight: 100;
+	font-size: 38px;
+	line-height: 1.25;
+	letter-spacing: 1px;
+}
+
+.main .odessa .images {
+	flex-basis: 50%;
+}
+
+.odessa .images > img {
+	width: 100%;
+}
+
+/*Explore Styling*/
+
+.container .main .explore {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+}
+
+.main .explore .texts {
+	display: flex;
+}
+
+.explore .texts .support {
+	flex-basis: 50%;
+}
+
+.explore .texts .text-content {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.explore .texts .text-content > h2 {
+	text-transform: none;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 1.25;
+    letter-spacing: 1.25px;
+}
+
+.main .explore .images {
+	display: flex;
+}
+
+.explore .images .image-content {
+	flex-basis: 66%;
+}
+
+.explore .images .image-content > img {
+	width: 100%;
+}
+
+.explore .images .support {
+	flex-basis: 35%;
+}
+
+.main .explore .left-logo {
+	position: absolute;
+	top: -40px;
+	left: -85px;
+}
+
+.main .explore .right-hamburger {
+	position: absolute;
+	top: -40px;
+	right: -80px;
+	font-size: 35px;
+}
+
+/*Leadership Styling*/
+
+.container .main .leadership {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.main .leadership .texts {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	padding-left: 100px;
+}
+
+.main .leadership .texts > h2 {
+	font-weight: 500;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 1.25px;
+}
+
+.main .leadership .images {
+	flex-basis: 50%;
+}
+
+.leadership .images > img {
+	width: 100%;
+}
+
+/*Tourisme Styling*/
+
+.container .main .tourisme {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.main .tourisme .texts {
+	display: flex;
+}
+
+.tourisme .texts .support {
+	flex-basis: 50%;
+}
+
+.tourisme .texts .text-content {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.tourisme .texts .text-content > h2 {
+	font-weight: 500;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 1.25px;
+}
+
+.main .tourisme	.images {
+	display: flex;
+}
+
+.tourisme .images .image-content {
+	flex-basis: 60%;
+}
+
+.tourisme .images .image-content > img {
+	width: 100%;
+}
+
+.tourisme .images .support {
+	flex-basis: 40%;
+}
+
+/*More Projects Styling*/
+
+.container .main .see-more {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	height: 50px;
+}
+
+.main .see-more .discover {
+	display: flex;
+	flex-direction: unset;
+	align-items: center;
+	gap: 5px;
+	padding-right: 50px;
+}
+
+.see-more .discover > h6 {
+	padding-bottom: 5px;
+}
+
+.see-more .discover > hr {
+	height: 1px;
+}
+
+/*Footer Styling*/
+
+.container .footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	width: 80%;
+	margin-bottom: 50px;
+}
+
+/*Solisco-Solx Styling*/
+
+.container .footer .solisco-solx {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #848587;
+	position: relative;
+}
+
+.sol {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 50%;
+}
+
+.solisco {
+	padding-left: 100px;
+}
+
+.sol .images {
+	display: flex;
+	align-items: center;
+	height: 75px;
+}
+
+.solisco .images > img  {
+	width: 144px;
+}
+
+.solx .images > img {
+	width: 70px;
+	height: 30px;
+}
+
+.solisco-solx .sol .texts {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.sol .texts > h3 {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.3;
+}
+
+.sol .texts > span {
+	font-size: 11.5px;
+	color: #807e7e;
+}
+
+.footer .solisco-solx .attached-solisco {
+	position: absolute;
+	right: -90px;
+	bottom: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 5px;
+}
+
+.solisco-solx .attached-solisco > a {
+	text-decoration: none;
+	color: #bbbdbb;
+	font-size: 10px;
+}
+
+.solisco-solx .attached-solisco > img {
+	width: 60px;
+}
+
+/*Maison Styling*/
+
+.container .footer .maison {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 20px;
+}
+
+.footer .maison .images {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 75px;
+}
+
+.maison .images .image-content {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.maison .image-content > img {
+	width: 30%;
+}
+
+.maison .images .discover {
+	align-items: center;
+	gap: 10px;
+}
+
+.footer .maison .copyright {
+	display: flex;
+	justify-content: space-between;
+	color: #d4d3d2;
+	font-size: 10px;
+}
+
+.maison .copyright > span:nth-of-type(2) {
+	display: flex;
+	align-items: center;
+}
+
+.maison .copyright > span:nth-of-type(2) > img {
+	height: 12.5px;
+}
+
