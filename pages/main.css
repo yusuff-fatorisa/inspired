@@ -32,6 +32,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 10px;
 }
 
 .container .top > img {
@@ -134,6 +135,7 @@ body {
 	width: 275px;
 	top: 35px;
     right: 265px;
+    z-index: 1;
 }
 
 /*Inspired Dreams Styling*/
@@ -167,7 +169,7 @@ body {
 .texts .text-content > h2 {
 	text-transform: capitalize;
 	font-weight: 100;
-	font-size: 40px;
+	font-size: 39px;
 	line-height: 1.25;
 	letter-spacing: 1.25px;
 }
@@ -232,7 +234,7 @@ body {
 
 .odessa .texts > h2 {
 	font-weight: 100;
-	font-size: 38px;
+	font-size: 37px;
 	line-height: 1.25;
 	letter-spacing: 1px;
 }
@@ -471,7 +473,7 @@ body {
 }
 
 .sol .texts > span {
-	font-size: 11.5px;
+	font-size: 11px;
 	color: #807e7e;
 }
 
@@ -541,3 +543,219 @@ body {
 	height: 12.5px;
 }
 
+/*Media Query*/
+
+@media screen and (max-width: 1150px) {
+
+	.our-services .service-title > img {
+		right: 200px;
+	}
+
+	.odessa .texts > h2 {
+		font-size: 32px;
+	}
+
+	.solisco {
+		padding-left: 65px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.main .hero > h1 {
+		right: 30px;
+	}
+
+	.our-services .service-title > img {
+		right: 165px;
+	}
+
+	.our-services .services-list > ul > li {
+		font-size: 32px;
+	}
+
+	.texts .text-content > h2 {
+		font-size: 35px;
+	}
+
+	.odessa .texts > h2 {
+		font-size: 27.5px;
+	}
+
+	.main .explore .left-logo {
+		left: -70px;
+	}
+
+	.main .explore .right-hamburger {
+		right: -50px;
+	}
+
+	.main .leadership .texts {
+		padding-left: 60px;
+	}
+
+	.container .footer .solisco-solx {
+		gap: 20px;
+	}
+
+	.solisco {
+		padding-left: 30px;
+	}
+
+	.footer .solisco-solx .attached-solisco {
+		right: -75px;
+	}
+}
+
+
+@media screen and (max-width: 950px) {
+	.main .hero > h1 {
+		right: 15px;
+		top: 80px;
+		font-size: 28px;
+	}
+
+	.our-services .service-title > img {
+		width: 225px;
+	}
+
+	.our-services .services-list > ul > li {
+		font-size: 28px;
+	}
+
+	.texts .text-content > h2 {
+		font-size: 31px;
+	}
+
+	.main .odessa .texts {
+		padding-left: 80px;
+	}
+
+	.explore .texts .text-content > h2 {
+		font-size: 32px;
+	}
+
+	.main .explore .left-logo {
+		left: -55px;
+	}
+
+	.main .explore .left-logo > img {
+		width: 50px;
+	}
+
+	.fa-bars {
+		font-size: 30px;
+	}
+
+	.main .leadership .texts > h2 {
+		font-size: 27.5px;
+	}
+
+	.tourisme .texts .text-content > h2 {
+		font-size: 30px;
+	}
+
+	.sol .texts > h3 {
+		font-size: 25px;
+	}
+
+	.sol span br {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 850px) {
+
+	.main .our-services .services-list {
+		padding-left: 15px;
+	}
+
+	.our-services .service-title > img {
+		right: 135px;
+		top: 30px;
+	}
+
+
+	.our-services .services-list > ul > li {
+		font-size: 23px;
+	}
+
+	.texts .text-content > h2 {
+		font-size: 28px;
+	}
+
+	.main .odessa .texts {
+		padding-left: 55px;
+	}
+
+	.explore .texts .text-content > h2 {
+		font-size: 29px;
+	}
+
+	.main .leadership .texts {
+		padding-left: 50px;
+	}
+
+	.main .leadership .texts > h2 {
+		font-size: 25px;
+	}
+
+	.tourisme .texts .text-content > h2 {
+		font-size: 27px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.main .hero > h1 {
+		top: 55px;
+		font-size: 25px;
+	}
+
+	.our-services .services-list > ul > li {
+		font-size: 20px;
+	}
+
+	.our-services .service-title > img {
+		width: 200px;
+	}
+
+	.texts .text-content > h2 {
+		font-size: 25px;
+	}
+
+	.main .odessa .texts {
+		padding-left: 45px;
+	}
+
+	.odessa .texts > h2 {
+		font-size: 25px;
+	}
+
+	.explore .texts .text-content > h2 {
+		font-size: 25.5px;
+	}
+
+	.main .leadership .texts {
+		padding-left: 35px;
+	}
+
+	.main .leadership .texts > h2 {
+		font-size: 23.5px;
+	}
+
+	.tourisme .texts .text-content > h2 {
+		font-size: 24px;
+	}
+
+	.sol .texts > h3 {
+		font-size: 22px;
+	}
+
+	.sol .texts > span {
+		font-size: 10.5px;
+	}
+
+	.footer .solisco-solx .attached-solisco {
+		right: -60px;
+		bottom: 275px;
+	}
+}
